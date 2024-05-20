@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Madimi+One&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Tillana:wght@400;500;600;700;800&display=swap');
+
+#nav-text{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  font-size: 25px;
+  color: brown;
+  font-style: normal;
+}
+
+
+#text-1{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#text-2{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#text-3{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#icon{
+  font-size: 40px;
+}
+
+a{
+  /* display: none; */
+  text-decoration: none;
+  color: black;
+}
+
+
+#crypto{
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .5rem;
+  color: blue;
+}
+
+
+
+#form{
+  /* color: red; */
+  width: 40%;
+  height: 50vh;
+  /* outline: none; */
+  /* border: 1px solid black; */
+}
+
+
+#div{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#regis{
+  font-family: "Tillana", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+#btn-regis{
+  position: relative;
+  left: 430px;
+  border-radius: 0;
+  /* right: 0; */
+}
+
+
+#login{
+  width: 35%;
+  height: 50vh;
+margin-top: 100px;
+/* border: 1px solid black; */
+box-shadow: 0 0 50px #ccc;
+
+}
+
+
+#btn-login{
+  position: relative;
+  left: 390px;
+  border-radius: 0;
+  /* right: 0; */
+}
