@@ -27,13 +27,13 @@ const CoinCard = ({ coins }) => {
           <CardMedia
             component="img"
             height="300"
-            image={coins.item.large}
+            image={coins?.item?.large}
             alt="Paella dish"
           />
           <CardContent>
-            <Typography variant="body2">Coin_Name : {coins?.item.name}</Typography>
-            <Typography variant="body2"> Price : {coins?.item.data.price}</Typography>
-            <Typography variant="body2"> Market_Capital : {coins?.item.data.market_cap}</Typography>
+            <Typography variant="body2">Coin_Name : {coins?.item?.name}</Typography>
+            <Typography variant="body2"> Price : {coins?.item.data?.price}</Typography>
+            <Typography variant="body2"> Market_Capital : {coins?.item?.data?.market_cap}</Typography>
           </CardContent>
             
           
@@ -45,7 +45,7 @@ const CoinCard = ({ coins }) => {
             <IconButton aria-label="share">
               <ShareIcon />
             </IconButton>
-          <Link to={`/coin/${coins.item.name}`}>
+          <Link to={`/coin/${coins?.item?.name}`}>
           <Button variant="contained outlined" >
             Learn More...
           </Button>
